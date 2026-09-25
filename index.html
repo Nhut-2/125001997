@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Cửa hàng máy tính và phụ kiện công nghệ TechStore chính hãng giá tốt." />
+    <title>Thiết Bị Công Nghệ</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header class="header animate__animated animate__fadeInDown">
+      <div class="brand-container">
+        <div class="logo">Trang Thiết Bị Công Nghệ</div>
+        <label class="dark-mode-toggle">
+          <input type="checkbox" id="themeToggle" />
+          <span> Tối</span>
+        </label>
+      </div>
+
+      <a href="#products" class="btn-buy">MUA NGAY</a>
+
+      <nav class="menu">
+        <a href="#">Trang chủ</a>
+        <a href="#products">Laptop</a>
+        <a href="#products">Phụ kiện</a>
+        <a href="#products">Khuyến mãi</a>
+        <a href="#order">Liên hệ</a>
+      </nav>
+    </header>
+
+    <section class="banner animate__animated animate__fadeIn">
+      <div class="banner-text">
+        <h1>Tân Sinh Viên Ưu Dãi</h1>
+        <p>Giảm cực mạnh 20% cho các Thủ Khoa</p>
+      </div>
+    </section>
+
+    <main class="main-content" id="products">
+      <h2 class="title animate__animated animate__bounceIn">Sản Phẩm Nổi Bật</h2>
+
+      <div class="product-list">
+        <article class="product-item">
+          <img src="2aOboQuQtKqO1uZ1UUQtQEh7qycgPoEjUVjwGeo4-1536x1536.jpg" alt="Laptop Lenovo Legion Pro 7" />
+          <h3>Lenovo Legion Pro 7</h3>
+          <p class="price">121.800.000 VNĐ</p>
+          <p>Intel Core Ultra 9, 32GB RAM, RTX 4090</p>
+          <button type="button" class="btn-add">Thêm vào giỏ</button>
+        </article>
+
+        <article class="product-item">
+          <img src="laptop-asus-expertbook-b3-core-ultra-5-225h-core-ultra-7-255h-ram-16gb-ssd-512gb-14inch-wuxga-win-11-laptopmart.jpg" alt="Laptop ASUS ExpertBook" />
+          <h3>Laptop ASUS ExpertBook</h3>
+          <p class="price">25.690.000 VNĐ</p>
+          <p>Intel Core Ultra 5, 16GB RAM, 512GB SSD</p>
+          <button type="button" class="btn-add">Thêm vào giỏ</button>
+        </article>
+
+        <article class="product-item">
+          <img src="Bai-dang-Instagram-Quang-cao-Khuyen-mai-Quoc-khanh-Viet-Nam-Toi-gian-Do-vang-15.png" alt="Chuột Không Dây" />
+          <h3>Chuột Không Dây</h3>
+          <p class="price">330.000 VNĐ</p>
+          <p>Độ phân giải DPI 1200, Pin dùng 7 tháng</p>
+          <button type="button" class="btn-add">Thêm vào giỏ</button>
+        </article>
+
+        <article class="product-item">
+          <img src="download.jpg" alt="Bàn Phím Cơ RGB" />
+          <h3>Bàn Phím Cơ RGB</h3>
+          <p class="price">1.200.000 VNĐ</p>
+          <p>Switch Cơ Học Cao Cấp, Đèn LED RGB</p>
+          <button type="button" class="btn-add">Thêm vào giỏ</button>
+        </article>
+
+        <article class="product-item">
+          <img src="tai-nghe-chup-tai-anker-soundcore-q20i_5_.webp" alt="Tai Nghe Bluetooth" />
+          <h3>Tai Nghe Bluetooth</h3>
+          <p class="price">850.000 VNĐ</p>
+          <p>Âm Thanh Vòm 3D, Chống Ồn Chủ Động</p>
+          <button type="button" class="btn-add">Thêm vào giỏ</button>
+        </article>
+
+        <article class="product-item">
+          <img src="tai_xu_ng__1__510dc4afe59748bab335098baed07200_grande.webp" alt="Màn Hình Văn Phòng" />
+          <h3>Màn Hình Văn Phòng</h3>
+          <p class="price">2.290.000 VNĐ</p>
+          <p>Kích thước 27 inch, Full HD, Tần số 120Hz</p>
+          <button type="button" class="btn-add">Thêm vào giỏ</button>
+        </article>
+      </div>
+    </main>
+
+    <section class="order-section" id="order">
+      <h2>Đặt Hàng</h2>
+      <form action="#" method="POST">
+        <div class="form-group">
+          <label for="fullname">Họ và tên:</label>
+          <input type="text" id="fullname" name="fullname" required />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Điện thoại:</label>
+          <input type="tel" id="phone" name="phone" required />
+        </div>
+
+        <div class="form-group">
+          <label for="address">Địa chỉ giao hàng:</label>
+          <input type="text" id="address" name="address" required />
+        </div>
+
+        <div class="form-group">
+          <label for="delivery_date">Ngày muốn nhận:</label>
+          <input type="date" id="delivery_date" name="delivery_date" required />
+        </div>
+
+        <div class="form-group">
+          <label for="product_select">Sản phẩm đặt mua:</label>
+          <select id="product_select" name="product_select">
+            <option value="1">Lenovo Legion Pro 7</option>
+            <option value="2">Laptop ASUS ExpertBook</option>
+            <option value="3">Chuột Không Dây</option>
+            <option value="4">Bàn Phím Cơ RGB</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Hình thức thanh toán:</label>
+          <div class="inline-options">
+            <label><input type="radio" name="payment" value="cash" checked /> Tiền mặt</label>
+            <label><input type="radio" name="payment" value="transfer" /> Chuyển khoản</label>
+            <label><input type="radio" name="payment" value="installment" /> Trả góp</label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>Dịch vụ kèm theo:</label>
+          <div class="inline-options">
+            <label><input type="checkbox" name="services[]" value="warranty" /> Bảo hành mở rộng</label>
+            <label><input type="checkbox" name="services[]" value="setup" /> Cài đặt phần mềm</label>
+            <label><input type="checkbox" name="services[]" value="delivery" /> Giao hàng hỏa tốc</label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="note">Ghi chú giao hàng:</label>
+          <textarea id="note" name="note" rows="3"></textarea>
+        </div>
+
+        <div class="form-buttons">
+          <button type="submit" class="btn-submit">Đặt hàng</button>
+          <button type="reset" class="btn-reset">Nhập lại</button>
+        </div>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <p><strong>Địa chỉ cửa hàng:</strong> Vũ Hán</p>
+      <p><strong>Chính sách:</strong> Bảo hành 30 s | Hotline: 01241534321</p>
+    </footer>
+  </body>
+</html>
